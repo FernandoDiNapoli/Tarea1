@@ -16,37 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juego de memoria!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAd-Wt-IWP">
-                                <rect key="frame" x="50" y="100" width="275" height="33.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recuerda el orden de las imagenes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAd-Wt-IWP">
+                                <rect key="frame" x="50" y="100" width="275" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkJ-WF-DE4">
-                                <rect key="frame" x="75" y="283.5" width="225" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Jugar">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0a-Wh-u1L">
-                                <rect key="frame" x="75" y="352" width="225" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Puntuaciones pasadas!">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ub-SL-Q09"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
-                            <constraint firstItem="fkJ-WF-DE4" firstAttribute="leading" secondItem="0ub-SL-Q09" secondAttribute="leading" constant="75" id="4m6-1x-Dta"/>
                             <constraint firstItem="bAd-Wt-IWP" firstAttribute="leading" secondItem="0ub-SL-Q09" secondAttribute="leading" constant="50" id="Qta-rh-K5S"/>
                             <constraint firstItem="bAd-Wt-IWP" firstAttribute="top" secondItem="0ub-SL-Q09" secondAttribute="top" constant="100" id="Sej-W7-pNk"/>
-                            <constraint firstItem="fkJ-WF-DE4" firstAttribute="top" secondItem="bAd-Wt-IWP" secondAttribute="bottom" constant="150" id="TAZ-hl-uGg"/>
                             <constraint firstItem="0ub-SL-Q09" firstAttribute="trailing" secondItem="bAd-Wt-IWP" secondAttribute="trailing" constant="50" id="ZX1-YB-BaE"/>
-                            <constraint firstItem="0ub-SL-Q09" firstAttribute="trailing" secondItem="fkJ-WF-DE4" secondAttribute="trailing" constant="75" id="o2V-Ev-3UH"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -108,43 +90,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juego de memoria!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5g-Wf-7LG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntuaciones" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5g-Wf-7LG">
                                 <rect key="frame" x="50" y="100" width="275" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlY-pl-k8U">
-                                <rect key="frame" x="75" y="283.5" width="225" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Jugar">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvb-BW-R5D">
-                                <rect key="frame" x="75" y="352" width="225" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mayor a menor" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tnu-0D-lhz">
+                                <rect key="frame" x="120" y="203" width="135" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Puntuaciones pasadas!">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GlJ-MO-9ox"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
-                            <constraint firstItem="HlY-pl-k8U" firstAttribute="top" secondItem="p5g-Wf-7LG" secondAttribute="bottom" constant="150" id="KEM-NA-KvC"/>
-                            <constraint firstItem="GlJ-MO-9ox" firstAttribute="trailing" secondItem="HlY-pl-k8U" secondAttribute="trailing" constant="75" id="Sfe-B4-m17"/>
                             <constraint firstItem="p5g-Wf-7LG" firstAttribute="top" secondItem="GlJ-MO-9ox" secondAttribute="top" constant="100" id="VUm-qa-eaL"/>
                             <constraint firstItem="p5g-Wf-7LG" firstAttribute="leading" secondItem="GlJ-MO-9ox" secondAttribute="leading" constant="50" id="d9n-RS-CMi"/>
-                            <constraint firstItem="HlY-pl-k8U" firstAttribute="leading" secondItem="GlJ-MO-9ox" secondAttribute="leading" constant="75" id="fH1-30-3nu"/>
                             <constraint firstItem="GlJ-MO-9ox" firstAttribute="trailing" secondItem="p5g-Wf-7LG" secondAttribute="trailing" constant="50" id="y29-ST-TXt"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bai-Fk-xB1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="358" y="-142"/>
+            <point key="canvasLocation" x="357.60000000000002" y="-142.57871064467767"/>
         </scene>
     </scenes>
     <resources>
