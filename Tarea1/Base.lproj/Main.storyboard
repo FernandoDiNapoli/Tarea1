@@ -29,6 +29,9 @@
                                 <state key="normal" title="Volver">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DRn-Jt-Wje" kind="presentation" modalPresentationStyle="fullScreen" id="bWi-UM-Jdr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ub-SL-Q09"/>
@@ -67,6 +70,9 @@
                                 <state key="normal" title="Volver">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wvn-0R-Q6M" kind="presentation" modalPresentationStyle="fullScreen" id="3Tv-vL-MFS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d5m-KC-IJY"/>
@@ -105,6 +111,9 @@
                                 <state key="normal" title="Jugar">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wvn-0R-Q6M" kind="presentation" modalPresentationStyle="fullScreen" id="fA3-nn-s69"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmS-sq-Bkg">
                                 <rect key="frame" x="75" y="348.5" width="225" height="30"/>
@@ -112,6 +121,9 @@
                                 <state key="normal" title="Puntuaciones pasadas!">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Igp-B2-s4C" kind="presentation" modalPresentationStyle="fullScreen" id="zQx-ve-ZE8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A8b-D8-RlP"/>
@@ -158,6 +170,9 @@
                                 <state key="normal" title="Volver">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DRn-Jt-Wje" kind="presentation" modalPresentationStyle="fullScreen" id="YXL-UR-IoO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GlJ-MO-9ox"/>
@@ -172,12 +187,17 @@
                             <constraint firstItem="GlJ-MO-9ox" firstAttribute="trailing" secondItem="p5g-Wf-7LG" secondAttribute="trailing" constant="50" id="y29-ST-TXt"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="axU-KT-O74"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bai-Fk-xB1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="357.60000000000002" y="-142.57871064467767"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bWi-UM-Jdr"/>
+        <segue reference="3Tv-vL-MFS"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
